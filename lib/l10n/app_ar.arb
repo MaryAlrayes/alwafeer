@@ -1,0 +1,439 @@
+{
+
+    "phone_number":"رقم الهاتف",
+    "phone_number_not_empty":"يجب إدخال رقم الهاتف",
+    "phone_number_check_char_number":"تأكد من إدخال رقم الهاتف بشكل صحيح",
+    "password":"كلمة المرور",
+    "password_not_empty":"يجب إدخال كلمة المرور",
+    "login":"تسجيل الدخول",
+    "signup_message":"ليس لديك حساب؟",
+    "join_us":"انضم إلينا",
+    "english_code":"En",
+    "arabic_code":"AR",
+    "copyright":" جميع الحقوق محفوظة {year} Betakatkom.com",
+    "@copyright": {
+        "placeholders":{
+            "year":{
+                "type": "DateTime",
+                "format": "yyyy",
+                "isCustomDateFormat": "true"
+
+
+            }
+        }
+    },
+
+
+
+    "joining_label":"كيف تريد الانضمام إلينا؟",
+    "personal_account":"حساب شخصي",
+    "business_account":"حساب تجاري",
+    "create_perosnal_label":"إنشاء حساب شخصي",
+    "personal_name":"الاسم",
+    "personal_phone":"رقم الهاتف",
+    "personal_password":"كلمة المرور",
+    "personal_confirmation_password":"تأكيد كلمة المرور",
+    "create_personal_account_btn":"إنشاء الحساب",
+    "create_personal_not_empty_field":"لا يمكن لهذا الحقل أن يكون فارغ",
+    "matching_pasword":"كلمتا المرور غير متطابقتين",
+    "create_business_label":"إنشاء حساب تجاري",
+    "business_name":"اسم المحل",
+    "buiness_phone":"رقم الهاتف",
+    "buiness_password":"كلمة المرور",
+    "buiness_confirmation_password":"تأكيد كلمة المرور",
+    "create_business_account_btn":"إنشاء الحساب",
+    "choose_file":"اختر ملف",
+    "commercial_register":"السجل التجاري",
+    "verfication_code_label":"رمز التحقق",
+    "verfication_code_subtitle":"قم بإدخال رمز التحقق الذي تم إرساله إليك",
+    "verfiy":"تحقق",
+
+
+
+    "settings":"الإعدادات",
+    "delegate_person":"المندوب",
+    "home":"الرئيسية",
+    "notification":"الاشعارات",
+    "log":"السجل",
+
+
+    "balance":"{number} د.أ",
+    "@balance":{
+        "placeholders":{
+            "number":{
+                "type":"num",
+                "format": "decimalPattern"
+
+            }
+        }
+    },
+
+
+    "charge_card_print":"بطاقات الشحن\nطباعة",
+    "charge_card_ship":"بطاقات الشحن\nشحن مباشر",
+    "game_card":"بطاقات ألعاب",
+    "store_channels":"المتاجر والقنوات",
+    "pay_bills":"دفع فواتير",
+    "electronic_wallets":"المحافظ الالكترونية",
+    "electronic_wallets":"المحافظ الالكترونية",
+    "events_ticket":"تذاكر مباريات\n ومناسبات ترفيهية",
+    "social_media":"تطبيقات تواصل اجتماعي",
+    "electronic_devices":"أجهزة الكترونية",
+    "maintenance_accessories":"قطع صيانة واكسسوارات",
+
+
+    "pay_bills_governmental":"حكومي",
+    "pay_bills_communication":"الاتصالات",
+    "pay_bills_insurance":"تأمين",
+    "pay_bills_bank":"البنوك",
+    "pay_bills_health":"الطب والصحة",
+    "pay_bills_education":"تعليمي",
+    "pay_bills_water_and_electricity":"مياه وكهرباء",
+    "pay_bills_travelling":"نقل وسفر",
+    "pay_bills_advertisment":"دعاية وإعلام",
+    "pay_bills_gas":"الغاز والطاقة",
+    "pay_bills_organizations":"نقابات ومنظمات",
+    "pay_bills_finance":"تمويل وخدمات مالية",
+    "pay_bills_ecommerce":"التجارة الالكترونية",
+    "pay_bills_charity":"الجهات الخيرية",
+    "pay_bills_services":"التجارة والخدمات",
+    "pay_bills_details_cancel_btn":"إلغاء",
+    "pay_bills_details_query_btn":"استعلام",
+    "pay_bills_details_one_final_step":"خطوة واحدة أخيرة!",
+    "pay_bills_details_your_current_balance":"رصيدك الحالي: ",
+    "pay_bills_details_billet_label":"المفوتر",
+    "pay_bills_details_service_label":"الخدمة",
+    "pay_bills_details_pick_service_label":"اختر الخدمة",
+    "pay_bills_details_bill_number_label":"رقم الفاتورة",
+    "pay_bills_details_payment_label":"المبلغ المراد دفعه",
+    "pay_bills_details_bill_note":"رقم الفوترة يستعمل لاحظار فواتيرك الخاصة، قد يكون رقم الفوترة هو رقم الهاتف عند الدفع لشبكات الاتصال أو رقمك  الجامعي عند الدفع للمؤسسات التعليمية.",
+
+
+
+
+
+
+    "hello":"مرحبا بك {username} !",
+    "@hello":{
+        "placeholders":{
+            "username":{
+                "type":"String"
+
+            }
+        }
+    },
+    "phone_number_settings":"رقم الهاتف: {number}",
+    "@phone_number_settings":{
+        "placeholders":{
+            "number":{
+                "type":"String"
+
+            }
+        }
+    },
+    "language" :"اللغة",
+    "english":"الانكليزية",
+    "arabic":"العربية",
+    "check_printer":"فحص الطابعة",
+    "change_password":"تغيير كلمة المرور",
+    "selling_point":"إنشاء نقطة بيع",
+    "profit_policy":"سياسة الأرباح",
+    "log_out":"تسجيل الخروج",
+
+    "log_out_confirm":"هل أنت متأكد من أنك تريد تسجيل الخروج؟",
+    "yes_dialog":"نعم",
+    "cancel_dialog":"إلغاء",
+
+    "notification_pay":"تم دفع الذمم السابقة",
+    "notification_charge":"تم شحن رصيد محفظتك",
+    "show_all":"عرض الكل",
+    "all_notification_filter":"كل الإشعارات",
+    "pay_filter":"دفع الذمم",
+    "charge_filter":"شحن الرصيد",
+    "notification_date":"{date}",
+    "@notification_date":{
+     "placeholders":{
+     "date":{
+         "type": "DateTime",
+         "format": "EE dd/MM/y - hh:mm a",
+         "isCustomDateFormat": "true"
+     }
+     }
+
+    },
+    "minus_amount":"-  {amount} د.أ",
+    "@minus_amount":{
+        "placeholders":{
+            "amount":{
+                "type":"double",
+                "format": "decimalPattern",
+                "optionalParameters": {
+                    "decimalDigits": 2,
+                    "customPattern": "¤#0.00"
+
+
+            }
+        }
+    }
+    },
+    "plus_amount":"+  {amount} د.أ",
+    "@plus_amount":{
+        "placeholders":{
+            "amount":{
+                "type":"double",
+                "format": "decimalPattern",
+                "optionalParameters": {
+                    "decimalDigits": 2,
+                    "customPattern": "¤#0.00"
+
+
+            }
+        }
+    }
+    },
+
+    "print_label":"طباعة",
+    "log_Date":"{date}",
+    "@log_Date":{
+     "placeholders":{
+     "date":{
+         "type": "DateTime",
+         "format": "EE dd/MM/y - hh:mm a",
+         "isCustomDateFormat": "true"
+     }
+     }
+
+    },
+    "log_amount":"{amount} د.أ",
+    "@log_amount":{
+        "placeholders":{
+            "amount":{
+                "type":"double",
+                "format": "decimalPattern",
+                "optionalParameters": {
+                    "decimalDigits": 2,
+                    "customPattern": "¤#0.00"
+
+
+            }
+        }
+    }
+    },
+    "transaction_number_label":"عدد الحركات بعد أخر عمليات جرد:",
+    "clear":"جرد",
+
+    "delegate_info":"معلومات المندوب",
+    "technical_support":"الدعم الفني",
+    "receivables_and_profits":"الذمم والأرباح",
+    "total_receivables":"مجموع الذمم:",
+    "total_receivables_num":"{number}  د.أ",
+    "@total_receivables_nume":{
+        "placeholders":{
+            "number":{
+                "type":"num",
+                "format": "decimalPattern"
+
+            }
+        }
+    },
+
+    "total_profits":"مجموع الأرباح:",
+    "total_profits_num":"{number}  د.أ",
+    "@total_profits_num":{
+        "placeholders":{
+            "number":{
+                "type":"num",
+                "format": "decimalPattern"
+
+            }
+        }
+    },
+    "transfer_btn":"تحويل",
+    "transfer_dialog_title":"تحويل الأرباح",
+    "transfer_dialog_message":"هل أنت متأكد من أنك تريد تحويل الأرباح؟",
+    "yes_transfer_dialog":"نعم",
+    "cancel_transfer_dialog":"إغلاق",
+    "my_selling_points":"نقاط البيع خاصتي",
+    "name_column_field":"الاسم",
+    "balance_column_field":"الرصيد",
+    "receivables_column_field":"الذمم",
+    "whatsapp_not_installed":"تطبيق الواتسب غير موجود على الهاتف",
+
+    "zain_text":"زين",
+    "orange_text":"أورانج",
+    "umniah_text":"أمنية",
+    "egyption_cards_text":"بطاقات مصرية",
+    "zain_abbrv":"zain",
+    "orange_abbrv":"orange",
+    "umniah_abbrv":"umniah",
+    "egyption_cards_abbrv":"egy cards",
+
+    "zain_GSIM_text":"مدفوع مسبقا",
+    "zain_MIX_text":"مكس",
+    "zain_DATA_text":"انترنت",
+    "zain_GSIM_abbrv":"GSIM",
+    "zain_MIX_abbrv":"MIX",
+    "zain_DATA_abbrv":"DATA",
+
+    "orange_GSM_text":"مدفوع مسبقا",
+    "orange_NOS_B_NOS_text":"نص بنص",
+    "orange_DATA_text":"انترنت",
+    "orange_WEENAK_text":"وينك",
+    "orange_GSM_abbrv":"GSM",
+    "orange_NOS_B_NOS_abbrv":"NOS B NOS",
+    "orange_DATA_abbrv":"DATA",
+    "orange_WEENAK_abbrv":"WEENAK",
+
+    "umniah_GSM_text":"مدفوع مسبقا",
+    "umniah_SMART_text":"سمارت",
+    "umniah_EVO_text":"انترنت",
+    "umniah_GSM_abbrv":"GSM",
+    "umniah_SMART_abbrv":"SMART",
+    "umniah_EVO_abbrv":"EVO",
+
+    "egy_VODAFONE_text":"فودافون",
+    "egy_ETISALAT_text":"اتصالات",
+    "egy_MOBINIL_text":"موبينيل",
+    "egy_WE_text":"وي",
+    "egy_VODAFONE_abbrv":"VODAFONE",
+    "egy_ETISALAT_abbrv":"ETISALAT",
+    "egy_MOBINIL_abbrv":"MOBINIL",
+    "egy_WE_abbrv":"WE",
+
+
+    "recharge_step3_price_label":"السعر: ",
+    "recharge_step3_jod_currency":"د.أ",
+    "recharge_step3_egp_currency":"ج.م",
+
+
+    "recharge_jod_amount":"{number} د.أ",
+    "@recharge_jod_amount":{
+        "placeholders":{
+            "number":{
+                "type":"num",
+                "format": "decimalPattern"
+
+            }
+        }
+    },
+    "recharge_egp_amount":"{number} ج.م",
+    "@recharge_egp_amount":{
+        "placeholders":{
+            "number":{
+                "type":"num",
+                "format": "decimalPattern"
+
+            }
+        }
+    },
+
+    "done_recharge_process":"تم الشراء",
+
+
+    "confirm_exitting_title_dialog":"تأكيد الخروج",
+    "confirm_exitting_subtitle_dialog":"هل حقا تريد الخروج؟",
+    "confirm_exitting_yes_btn_dialog":"نعم",
+    "confirm_exitting_cancel_btn_dialog":"البقاء",
+
+
+    "confirm_purchasing_title_dialog":"تأكيد الشراء",
+    "confirm_purchasing_subtitle_dialog":"عند الضغط على شراء سيتم خصم قيمة البطاقة من رصيدكم",
+    "confirm_purchasing_buy_btn_dialog":"شراء",
+    "confirm_purchasing_cancel_btn_dialog":"إلغاء",
+
+    "sms_title_dialog":"ادخل رقم الهاتف للاستلام",
+    "shipping_title_dialog":"ادخل رقم الهاتف المراد شحنه",
+    "sms_shipping_done_btn_dialog":"تم",
+    "sms_shipping_cancel_btn_dialog":"إلغاء",
+    "sms_shipping_empty_phone_number_dialog":"من فضلك ادخل الرقم",
+    "sms_shipping_wrong_phone_number_dialog":"تأكد من كتابة الرقم بشكل صحيح",
+    "sms_shipping_phone_number_label":"رقم الهاتف",
+
+
+    "recharge_purchasing_process_label":"عملية الشراء",
+    "recharge_step4_type":"النوع: ",
+    "recharge_step4_category":"الفئة: ",
+    "recharge_step4_units":"القيمة: ",
+    "recharge_step4_price":"السعر: ",
+    "recharge_step4_print_label":"طباعة",
+    "recharge_step4_share_label":"مشاركة",
+    "recharge_step4_sms_label":"استلام عبر رسالة نصية",
+    "recharge_step4_direct_charging_label":"شحن مباشر",
+
+    "create_selling_point_name_field":"اسم نقطة البيع الفرعية",
+    "create_selling_point_phone_field":"رقم الهاتف",
+    "create_selling_point_password_field":"كلمة المرور",
+    "create_selling_point_confirm_password_field":"تأكيد كلمة المرور",
+    "create_selling_point_create_btn":"إنشاء",
+    "create_selling_point_cancel_btn":"إغلاق",
+
+    "change_password_old_password_field":"كلمة المرور القديمة",
+    "change_password_new_password_field":"كلمة المرور الجديدة",
+    "change_password_confirm_new_password_field":"تأكيد كلمة المرور الجديدة",
+    "change_password_confirm_btn":"موافق",
+    "change_password_cancel_btn":"إلغاء",
+
+
+    "recharge_balance_label_appbar":"شحن الرصيد",
+    "rechrage_balance_step1_stepper":"المبلغ",
+    "rechrage_balance_step2_stepper":"طريقة الدفع",
+    "rechrage_balance_step3_stepper":"تأكيد العملية",
+    "rechrage_balance_step1_label":"ادخل الرصيد الذي تريد شحنه",
+    "recharge_balance_step1_wrong_input":"تأكد من إدخال قيمة المبلغ بشكل صحيح",
+    "recharge_balance_step2_label":"اختر طريقة الدفع",
+    "recharge_balance_step3_label":"قم بالتأكد من المعلومات قبل تأكيد عملية الشحن",
+    "recharge_balance_step3_amount_label":"المبلغ الذي تريد شحنه: ",
+    "recharge_balance_step3_label_payment_label":"طريقة الدفع: ",
+    "recharge_balance_step3_confirm_btn":"تأكيد العملية",
+    "recharge_balance_visa_card":"Visa Card",
+    "recharge_balance_master_card":"Master Card",
+    "recharge_balance_paypal_card":"PayPal",
+    "recharge_balance_contact_delegate_card":"التواصل مع المندوب",
+
+    "tickets_appbar_label":"تذاكر",
+    "tickets_day_label":"اليوم",
+    "tickets_timing_label":"الوقت",
+    "tickets_price_label":"السعر",
+    "ticket_date_format":"{date}",
+    "@ticket_date_format":{
+     "placeholders":{
+     "date":{
+         "type": "DateTime",
+         "format": "d/MM/y",
+         "isCustomDateFormat": "true"
+     }
+     }
+    },
+    "ticket_time_format":"{time}",
+    "@ticket_time_format":{
+     "placeholders":{
+     "time":{
+         "type": "DateTime",
+         "format": "hh:mm a",
+         "isCustomDateFormat": "true"
+     }
+     }
+    },
+    "ticket_date_filter":"تذاكر يوم: {date}",
+    "@ticket_date_filter":{
+     "placeholders":{
+     "date":{
+         "type": "DateTime",
+         "format": "d/MM/y",
+         "isCustomDateFormat": "true"
+     }
+     }
+    },
+
+
+
+
+
+    "jordon_currency":"د.أ"
+
+
+
+
+
+
+}

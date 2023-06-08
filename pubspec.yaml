@@ -1,0 +1,136 @@
+name: alwafeer
+description: Test Twfeer
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_native_splash: ^1.3.2
+  intl: ^0.17.0
+  cupertino_icons: ^1.0.2
+  convex_bottom_bar: ^3.0.0
+  flutter_bloc: ^8.1.1
+  equatable: ^2.0.5
+  font_awesome_flutter: ^10.2.1
+  ionicons: ^0.1.2
+  shared_preferences: ^2.0.15
+  file_picker: ^5.0.1
+  url_launcher: ^6.1.6
+  blue_thermal_printer: ^1.2.3
+  image: ^3.1.0
+  screenshot: ^1.2.3
+  # flutter_html: ^2.2.1
+  # share_files_and_screenshot_widgets:
+  path_provider: ^2.0.11
+  flutter_staggered_animations: ^1.1.1
+  # share: ^2.0.4
+  pdf: ^3.8.4
+  flutter_html_to_pdf: ^0.7.0
+  printing: ^5.9.3
+  # esc_pos_bluetooth: ^0.4.1
+  # flutter_bluetooth_basic: ^0.1.7
+  # esc_pos_utils: ^1.1.0
+  permission_handler: ^10.2.0
+  flutter_widget_from_html: ^0.9.0
+  device_preview: ^1.1.0
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.10.0
+
+
+#adding the splash screen
+flutter_native_splash:
+  background_image: lib/assets/images/splash.png
+
+
+#adding the app icon
+flutter_icons:
+  android: true
+  ios: true
+  image_path: lib/assets/images/logo.jpg
+  adaptive_icon_background: '#000000'
+  adaptive_icon_foreground: lib/assets/images/logo_foreground.png
+
+
+flutter:
+  generate: true
+  uses-material-design: true
+
+
+  assets:
+    - lib/assets/images/splash.png
+    - lib/assets/images/login_logo.png
+    - lib/assets/images/background.jpeg
+    - lib/assets/images/logo_appbar.png
+    - lib/assets/images/logo_foreground.png
+    - lib/assets/images/zain.png
+    - lib/assets/images/orange.png
+    - lib/assets/images/umniah.png
+    - lib/assets/images/egyption_cards.jpg
+    - lib/assets/images/zain_logo.png
+    - lib/assets/images/vodafone.png
+    - lib/assets/images/mobinil.png
+    - lib/assets/images/etisalat.png
+    - lib/assets/images/we.png
+    - lib/assets/images/zain_cash.png
+    - lib/assets/images/orange_money.jpg
+    - lib/assets/images/uwallet.jpg
+    - lib/assets/images/dinarak.jpg
+    - lib/assets/images/paypal.jpg
+    - lib/assets/images/pubg_game.jpg
+    - lib/assets/images/ball_pool_game.jpg
+    - lib/assets/images/jawaker_game.jpg
+    - lib/assets/images/free_fire_game.jpg
+
+    #icons
+    - lib/assets/icons/channels.png
+    - lib/assets/icons/game_card.png
+    - lib/assets/icons/charge_card.png
+    - lib/assets/icons/pay_bill.png
+    - lib/assets/icons/ship_card.png
+    - lib/assets/icons/wallet.png
+    - lib/assets/icons/tickets.png
+    - lib/assets/icons/social-media.png
+    - lib/assets/icons/electronic_devices.png
+    - lib/assets/icons/maintenance.png
+    - lib/assets/icons/goverment.png
+    - lib/assets/icons/communication.png
+    - lib/assets/icons/insurance.png
+    - lib/assets/icons/bank.png
+    - lib/assets/icons/health.png
+    - lib/assets/icons/education.png
+    - lib/assets/icons/water.png
+    - lib/assets/icons/travelling.png
+    - lib/assets/icons/advertisment.png
+    - lib/assets/icons/organizations.png
+    - lib/assets/icons/gas.png
+    - lib/assets/icons/finance.png
+    - lib/assets/icons/ecommerce.png
+    - lib/assets/icons/charity.png
+    - lib/assets/icons/services.png
+    - lib/assets/icons/friends.png
+    - lib/assets/icons/personal.png
+    - lib/assets/icons/other.png
+
+
+
+  fonts:
+    - family: Cairo
+      fonts:
+        - asset: lib/assets/fonts/cairo-regular.ttf
+          weight: 400
+

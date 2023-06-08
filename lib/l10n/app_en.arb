@@ -1,0 +1,422 @@
+{
+
+   "phone_number":"Phone Number",
+   "phone_number_not_empty":"This field cannot be empty",
+   "phone_number_check_char_number":"Make sure you phone number is writtern correctly",
+   "password":"Passord",
+   "password_not_empty":"This field cannot be empty",
+   "login":"Login",
+   "signup_message":"Don't have an account?",
+   "join_us":"Join Us",
+   "english_code":"En",
+   "arabic_code":"AR",
+   "copyright":"Betakatkom.com {year} All Rights Reserved",
+   "@copyright": {
+      "placeholders":{
+          "year":{
+            "type": "DateTime",
+            "format": "yyyy",
+            "isCustomDateFormat": "true"
+
+          }
+      }
+  },
+
+  "joining_label":"How do you want to join us?",
+  "personal_account":"Personal Account",
+  "business_account":"Business Account",
+  "create_perosnal_label":"Create Personal Account",
+  "personal_name":"Name",
+  "personal_phone":"Phone Number",
+  "personal_password":"Passord",
+  "personal_confirmation_password":"Confirm Passord",
+  "create_personal_account_btn":"Create Account",
+  "create_personal_not_empty_field":"This field cannot be empty",
+  "matching_pasword":"Passwords are not matched",
+  "create_business_label":"Create Business Account",
+  "business_name":"Store Name",
+  "buiness_phone":"Phone Number",
+  "buiness_password":"Passord",
+  "buiness_confirmation_password":"Confirm Passord",
+  "create_business_account_btn":"Create Account",
+  "choose_file":"Choose File",
+    "commercial_register":"Commercial Register",
+  "verfication_code_label":"Verification Code",
+  "verfication_code_subtitle":"Please type the verification code that was sent to you",
+  "verfiy":"verfiy",
+
+
+   "settings":"settings",
+   "delegate_person":"Delegate",
+   "home":"Home",
+   "notification":"Notification",
+   "log":"Log",
+
+
+   "balance":"{number} JOD",
+   "@balance":{
+      "placeholders":{
+          "number":{
+              "type":"num",
+              "format": "decimalPattern"
+
+          }
+      }
+  },
+
+   "charge_card_print":"Recharge Cards\nPrinting",
+   "charge_card_ship":"Recharge Cards\nDirect Shipping",
+   "game_card":"Gaming Cards",
+   "store_channels":"Stores and Channels",
+   "pay_bills":"Pay Bills",
+   "electronic_wallets":"Electronic Wallets",
+   "events_ticket":"Events Tickets",
+   "social_media":"Social Media",
+   "electronic_devices":"Electronic Devices",
+   "maintenance_accessories":"Maintenance parts\n and Accessories",
+
+   "pay_bills_governmental":"Governmental",
+   "pay_bills_communication":"Communication",
+   "pay_bills_insurance":"Insurance",
+   "pay_bills_bank":"Banks",
+   "pay_bills_health":"Health and Medicine",
+   "pay_bills_education":"Education",
+   "pay_bills_water_and_electricity":"Water and Electricity",
+   "pay_bills_travelling":"Travelling",
+   "pay_bills_advertisment":"Advertisment",
+   "pay_bills_gas":"Gas and Power",
+   "pay_bills_organizations":"Organizations",
+   "pay_bills_finance":"Financial Services",
+   "pay_bills_ecommerce":"E-commerce",
+   "pay_bills_charity":"Charities",
+   "pay_bills_services":"Trade and Services",
+   "pay_bills_details_cancel_btn":"cancel",
+   "pay_bills_details_query_btn":"Query",
+   "pay_bills_details_one_final_step":"One Final Step!",
+   "pay_bills_details_your_current_balance":"Current Balance: ",
+   "pay_bills_details_billet_label":"Billet",
+   "pay_bills_details_service_label":"Service",
+   "pay_bills_details_pick_service_label":"Pick a Service",
+   "pay_bills_details_bill_number_label":"Bill's Number",
+   "pay_bills_details_payment_label":"Payment",
+   "pay_bills_details_bill_note":"The billing number is used to note your private bills. The billing number may be the phone number when paying for networks, or your university number when paying for educational institutions.",
+
+   "hello":"Hello {username} !",
+   "@hello":{
+      "placeholders":{
+          "username":{
+              "type":"String"
+
+          }
+      }
+  },
+  "phone_number_settings":"Phone Number: {number}",
+  "@phone_number_settings":{
+      "placeholders":{
+          "number":{
+              "type":"String"
+
+          }
+      }
+  },
+   "language" :"Language",
+   "english":"English",
+   "arabic":"Arabic",
+   "check_printer":"Check Printer",
+   "change_password":"Change Password",
+   "selling_point":"Create a Selling Point",
+   "profit_policy":"Profit Policy",
+   "log_out":"Log out",
+
+
+   "log_out_confirm":"Are you sure you want to log out?",
+   "yes_dialog":"yes",
+   "cancel_dialog":"cancel",
+
+   "notification_pay":"Previous receivables have been paid",
+   "notification_charge":"Your wallet balance has been charged",
+   "show_all":"show all",
+   "all_notification_filter":"All Notification",
+   "pay_filter":"receivables",
+   "charge_filter":"recharge",
+   "notification_date":"{date}",
+   "@notification_date":{
+    "placeholders":{
+    "date":{
+        "type": "DateTime",
+        "format": "EE dd/MM/y - hh:mm a",
+        "isCustomDateFormat": "true"
+    }
+    }
+
+   },
+   "minus_amount":"-  {amount} JOD",
+   "@minus_amount":{
+       "placeholders":{
+           "amount":{
+            "type":"double",
+            "format": "decimalPattern",
+            "optionalParameters": {
+                "decimalDigits": 2,
+                "customPattern": "¤#0.00"
+
+           }
+       }
+   }
+
+},
+ "plus_amount":"+  {amount} JOD",
+"@plus_amount":{
+    "placeholders":{
+        "amount":{
+         "type":"double",
+         "format": "decimalPattern",
+         "optionalParameters": {
+             "decimalDigits": 2,
+             "customPattern": "¤#0.00"
+
+        }
+    }
+}
+
+},
+"print_label":"print",
+"log_Date":"{date}",
+"@log_Date":{
+ "placeholders":{
+ "date":{
+     "type": "DateTime",
+     "format": "EE dd/MM/y - hh:mm a",
+     "isCustomDateFormat": "true"
+ }
+ }
+
+},
+"log_amount":"{amount} JOD",
+"@log_amount":{
+    "placeholders":{
+        "amount":{
+            "type":"double",
+            "format": "decimalPattern",
+            "optionalParameters": {
+                "decimalDigits": 2,
+                "customPattern": "¤#0.00"
+
+
+        }
+    }
+}
+},
+"transaction_number_label":"The number of transactions after the last inventory:",
+"clear":"clear",
+
+
+    "delegate_info":"Delegate's Information",
+    "technical_support":"Technical Support",
+    "receivables_and_profits":"Receivables and Profits",
+    "total_receivables":"Total Receivables:",
+    "total_receivables_num":"{number} JOD",
+    "@total_receivables_nume":{
+        "placeholders":{
+            "number":{
+                "type":"num",
+                "format": "decimalPattern"
+
+            }
+        }
+    },
+
+    "total_profits":"Total Profits:",
+    "total_profits_num":"{number} JOD",
+    "@total_profits_num":{
+        "placeholders":{
+            "number":{
+                "type":"num",
+                "format": "decimalPattern"
+
+            }
+        }
+    },
+    "transfer_btn":"transfer",
+    "transfer_dialog_title":"Transfer Profits",
+    "transfer_dialog_message":"Are you sure you want to transfer all your profit?",
+    "yes_transfer_dialog":"yes",
+    "cancel_transfer_dialog":"cancel",
+    "my_selling_points":"My selling points",
+    "name_column_field":"Name",
+    "balance_column_field":"Balance",
+    "receivables_column_field":"Receivables",
+    "whatsapp_not_installed":"whatsapp no installed",
+
+    "zain_text":"Zain",
+    "orange_text":"Orange",
+    "umniah_text":"Umniah",
+    "egyption_cards_text":"Egyption Cards",
+    "zain_abbrv":"zain",
+    "orange_abbrv":"orange",
+    "umniah_abbrv":"umniah",
+    "egyption_cards_abbrv":"egy cards",
+
+    "zain_GSIM_text":"Paid in Advance",
+    "zain_MIX_text":"Mix",
+    "zain_DATA_text":"DATA",
+    "zain_GSIM_abbrv":"GSIM",
+    "zain_MIX_abbrv":"MIX",
+    "zain_DATA_abbrv":"DATA",
+
+    "orange_GSM_text":"Paid in Advance",
+    "orange_NOS_B_NOS_text":"NOS B NOS",
+    "orange_DATA_text":"DATA",
+    "orange_WEENAK_text":"WEENAK",
+    "orange_GSM_abbrv":"GSM",
+    "orange_NOS_B_NOS_abbrv":"NOS B NOS",
+    "orange_DATA_abbrv":"DATA",
+    "orange_WEENAK_abbrv":"WEENAK",
+
+    "umniah_GSM_text":"Paid in Advance",
+    "umniah_SMART_text":"SMART",
+    "umniah_EVO_text":"EVO",
+    "umniah_GSM_abbrv":"GSM",
+    "umniah_SMART_abbrv":"SMART",
+    "umniah_EVO_abbrv":"EVO",
+
+    "egy_VODAFONE_text":"VODAFONE",
+    "egy_ETISALAT_text":"ETISALAT",
+    "egy_MOBINIL_text":"MOBINIL",
+    "egy_WE_text":"WE",
+    "egy_VODAFONE_abbrv":"VODAFONE",
+    "egy_ETISALAT_abbrv":"ETISALAT",
+    "egy_MOBINIL_abbrv":"MOBINIL",
+    "egy_WE_abbrv":"WE",
+
+    "recharge_step3_price_label":"price: ",
+    "recharge_step3_jod_currency":"JOD",
+    "recharge_step3_egp_currency":"EGP",
+
+
+    "recharge_jod_amount":"{number} JOD",
+    "@recharge_jod_amount":{
+        "placeholders":{
+            "number":{
+                "type":"num",
+                "format": "decimalPattern"
+
+            }
+        }
+    },
+    "recharge_egp_amount":"{number} EGP",
+    "@recharge_egp_amount":{
+        "placeholders":{
+            "number":{
+                "type":"num",
+                "format": "decimalPattern"
+
+            }
+        }
+    },
+
+
+
+
+    "done_recharge_process":"Done",
+
+    "confirm_exitting_title_dialog":"Confirm Exit",
+    "confirm_exitting_subtitle_dialog":"Are you sure you want to exit?",
+    "confirm_exitting_yes_btn_dialog":"yes",
+    "confirm_exitting_cancel_btn_dialog":"stay",
+
+
+    "confirm_purchasing_title_dialog":"Confirm purchase",
+    "confirm_purchasing_subtitle_dialog":"When you press purchase, the value of the card will be deducted from your balance",
+    "confirm_purchasing_buy_btn_dialog":"purchase",
+    "confirm_purchasing_cancel_btn_dialog":"cancel",
+
+    "sms_title_dialog":"Enter your phone number to recieve",
+    "shipping_title_dialog":"Enter the phone number you want to recharge",
+    "sms_shipping_done_btn_dialog":"okay",
+    "sms_shipping_cancel_btn_dialog":"cancel",
+    "sms_shipping_empty_phone_number_dialog":"Please,enter your phone number",
+    "sms_shipping_wrong_phone_number_dialog":"Make sure you phone number is writtern correctly",
+    "sms_shipping_phone_number_label":"Phone Number",
+
+
+    "recharge_purchasing_process_label":"Purchasing Process",
+    "recharge_step4_type":"Type: ",
+    "recharge_step4_category":"Category: ",
+    "recharge_step4_units":"Units: ",
+    "recharge_step4_price":"Price: ",
+    "recharge_step4_print_label":"print",
+    "recharge_step4_share_label":"share",
+    "recharge_step4_sms_label":"SMS",
+    "recharge_step4_direct_charging_label":"Direct Charging",
+
+    "create_selling_point_name_field":"Sub-selling Point Name",
+    "create_selling_point_phone_field":"Phone Number",
+    "create_selling_point_password_field":"Password",
+    "create_selling_point_confirm_password_field":"Confirm Password",
+    "create_selling_point_create_btn":"Create",
+    "create_selling_point_cancel_btn":"Cancel",
+
+    "change_password_old_password_field":"Old Password",
+    "change_password_new_password_field":"New Password",
+    "change_password_confirm_new_password_field":"Confirm New Password",
+    "change_password_confirm_btn":"okay",
+    "change_password_cancel_btn":"cancel",
+
+
+    "recharge_balance_label_appbar":"Recharge Balance",
+    "rechrage_balance_step1_stepper":"Amount",
+    "rechrage_balance_step2_stepper":"payment method",
+    "rechrage_balance_step3_stepper":"Confirm Process",
+    "rechrage_balance_step1_label":"Enter the balance you want to charge",
+    "recharge_balance_step1_wrong_input":"Make sure the amount is entered correctly",
+    "recharge_balance_step2_label":"Choose your payment method",
+    "recharge_balance_step3_label":"Verify the information before confirming the charging process",
+    "recharge_balance_step3_amount_label":"Amount you want to charge: ",
+    "recharge_balance_step3_label_payment_label":"Payment Method: ",
+    "recharge_balance_step3_confirm_btn":"confirm",
+    "recharge_balance_visa_card":"Visa Card",
+    "recharge_balance_master_card":"Master Card",
+    "recharge_balance_paypal_card":"PayPal",
+    "recharge_balance_contact_delegate_card":"Contact Delegate",
+
+    "tickets_appbar_label":"Tickets",
+    "tickets_day_label":"Day",
+    "tickets_timing_label":"Time",
+    "tickets_price_label":"Price",
+    "ticket_date_format":"{date}",
+    "@ticket_date_format":{
+     "placeholders":{
+     "date":{
+         "type": "DateTime",
+         "format": "d/MM/y",
+         "isCustomDateFormat": "true"
+     }
+     }
+    },
+    "ticket_time_format":"{time}",
+    "@ticket_time_format":{
+     "placeholders":{
+     "time":{
+         "type": "DateTime",
+         "format": "hh:mm a",
+         "isCustomDateFormat": "true"
+     }
+     }
+    },
+    "ticket_date_filter":"Tickets: {date}",
+    "@ticket_date_filter":{
+     "placeholders":{
+     "date":{
+         "type": "DateTime",
+         "format": "d/MM/y",
+         "isCustomDateFormat": "true"
+     }
+     }
+    },
+
+    "jordon_currency":"JOD"
+
+}
+
+
