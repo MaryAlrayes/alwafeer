@@ -1,5 +1,5 @@
 import 'change_password_screen.dart';
-import 'check2.dart';
+
 import 'create_selling_point_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
@@ -72,11 +72,7 @@ class SettingsScreen extends StatelessWidget {
         title: AppLocalizations.of(context)!.change_password,
         icon: Icons.lock_outline,
         handler: () {
-          // Navigator.push(
-          //     context,
-          //     MaterialPageRoute(
-          //       builder: (context) => Check2(),
-          //     ));
+
           Navigator.pushNamed(context, ChangePasswordScreen.routeName);
         });
   }
@@ -102,7 +98,7 @@ class SettingsScreen extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.start,
       children: [
         Text(
-          AppLocalizations.of(context)!.hello('Mary'),
+          AppLocalizations.of(context)!.hello('Someone'),
           style: const TextStyle(
             fontSize: 20,
             color: Colors.black,

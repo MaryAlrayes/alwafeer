@@ -59,90 +59,11 @@ class _CheckPrinterScreenState extends State<CheckPrinterScreen> {
                     child: ElevatedButton(
                       child: const Text('طباعة'),
                       onPressed: () async {
-                        //  convert(_contentHtml, "File_Name");
-                        //  File file = await generateAndPrintArabicPdf();
 
-                        // ByteData bytesData =
-                        //     await rootBundle.load(AssetsPath.LOGIN_ICON);
-
-                        // String dir =
-                        //     (await getApplicationDocumentsDirectory()).path;
-
-                        // File imageFile =
-                        //     await File('$dir/login_logo.png').writeAsBytes(
-                        //   bytesData.buffer.asUint8List(
-                        //       bytesData.offsetInBytes, bytesData.lengthInBytes),
-                        // );
-
-                        // final im.Image? image = im.decodeImage(
-                        //   bytesData.buffer.asUint8List(
-                        //       bytesData.offsetInBytes, bytesData.lengthInBytes),
-                        // );
-
-                        // final String dir =
-                        //     (await getApplicationDocumentsDirectory()).path;
-                        // final String path = '$dir/1.pdf';
-                        // final File file = File(path);
-                        // Uint8List htmlToPrint = await Printing.convertHtml(
-                        //   html: _contentHtml,
-                        // );
-                        // File fileToPrint = await file.writeAsBytes(
-                        //   htmlToPrint.buffer.asUint8List(
-                        //       htmlToPrint.offsetInBytes,
-                        //       htmlToPrint.lengthInBytes),
-                        // );
-                        // print('length is ${await fileToPrint.length()}');
-                        // await Printing.layoutPdf(
-                        //     onLayout: (PdfPageFormat format) async =>
-                        //         htmlToPrint);
-
-                        // bluetooth.isConnected.then((isConnected) {
-                        //   print('about to print');
-                        //   if (isConnected == true) {
-                        //     bluetooth.printNewLine();
-                        //     // bluetooth.printImage(imageFile.path);
-                        //     bluetooth.printImageBytes(
-                        //       file.buffer.asUint8List(
-                        //         file.offsetInBytes,
-                        //         file.lengthInBytes,
-                        //       ),
-                        //     );
-
-                        //     bluetooth.printNewLine();
-                        //     bluetooth.paperCut();
-                        //   }
-                        // });
-
-                        // screenshotController
-                        //     .captureFromWidget(
-                        //   _buildWidgetToPrint(),
-                        //   context: myContext,
-                        // )
-                        //     .then((Uint8List capturedImage) async {
-                        //   ShowCapturedWidget(context, capturedImage);
-                        //   print('image is ${capturedImage.lengthInBytes}');
-                        //   bluetooth.isConnected.then((isConnected) {
-                        //     if (isConnected == true) {
-                        //       bluetooth.printImageBytes(
-                        //         capturedImage.buffer.asUint8List(
-                        //           capturedImage.offsetInBytes,
-                        //           capturedImage.lengthInBytes,
-                        //         ),
-                        //       );
-                        //       bluetooth.paperCut();
-                        //     }
-                        //   });
-                        // });
 
                         screenshotController.capture().then((capturedImage) {
                           final newImage = resizeImage(capturedImage!);
-                          // Navigator.push(
-                          //   context,
-                          //   MaterialPageRoute(
-                          //     builder: (context) =>
-                          //         Test(capturedImage: newImage),
-                          //   ),
-                          // );
+
 
                           print('image is ${newImage.length}');
                           bluetooth.isConnected.then((isConnected) {
@@ -236,23 +157,7 @@ class _CheckPrinterScreenState extends State<CheckPrinterScreen> {
     return directory?.path;
   }
 
-  // Future<dynamic> ShowCapturedWidget(
-  //     BuildContext context, Uint8List capturedImage) {
-  //   return showDialog(
-  //     useSafeArea: false,
-  //     context: context,
-  //     builder: (context) => Dialog(
-  //       child: Column(
-  //         mainAxisSize: MainAxisSize.min,
-  //         children: [
-  //           Image.memory(
-  //             capturedImage,
-  //           ),
-  //         ],
-  //       ),
-  //     ),
-  //   );
-  // }
+
 
   void _connect(BuildContext context) {
     if (selectedDevice != null) {
@@ -274,65 +179,12 @@ class _CheckPrinterScreenState extends State<CheckPrinterScreen> {
     setState(() => _connected = false);
   }
 
-//   Future<Uint8List?> _CaptureScreenShot() async {
-//     print('about to capture');
-//     RenderRepaintBoundary bound =
-//         _key.currentContext!.findRenderObject() as RenderRepaintBoundary;
-
-// //if it coudn't take a screenshot
-//     if (bound.debugNeedsPaint) {
-//       Timer(const Duration(seconds: 1), () => _CaptureScreenShot());
-//       return null;
-//     }
-//     showSnackbar(context, 'before debugNeedsPaint');
-  // if (bound.debugNeedsPaint) {
-  //   print("Waiting for boundary to be painted.");
-  //   showSnackbar(context, 'Waiting for boundary to be painted.');
-  //   await Future.delayed(
-  //     const Duration(milliseconds: 20),
-  //     () => _CaptureScreenShot(),
-  //   );
-  // }
-//     showSnackbar(context, 'after debugNeedsPaint');
-//     ui.Image image = await bound.toImage();
-//     ByteData? byteData = await image.toByteData(format: ui.ImageByteFormat.png);
-//     if (byteData != null) {
-//       Uint8List pngBytes = byteData.buffer.asUint8List();
-
-//       ShareFilesAndScreenshotWidgets().shareScreenshot(
-//           _key, 2000, "Title", "Name.png", "image/png",
-//           text: "This is the caption!");
-//       return pngBytes;
-//     } else {
-//       return null;
-//     }
-//   }
-
   Widget _buildWidgetToPrint() {
     return Screenshot(
       controller: screenshotController,
       child: Material(
         child: Container(
-          //constraints: BoxConstraints(maxHeight: 300,maxWidth: 300),
 
-//           child: const HtmlWidget(
-//             '''
-// <html>
-
-// <body >
-//   <p>مرحبا ، هذا نص للتجربة 1 طباعة</p>
-//    <p>مرحبا ، هذا نص للتجربة2 طباعة</p>
-//     <p>مرحبا ، هذا نص للتجربة3 طباعة</p>
-//      <p>مرحبا ، هذا نص للتجربة4 طباعة</p>
-//       <p>مرحبا ، هذا نص للتجربة5 طباعة</p>
-
-// </body>
-
-// </html>
-
-//   ''',
-//             textStyle: TextStyle(fontSize: 14, color: Colors.black),
-//           ),
           child: Row(
             mainAxisSize: MainAxisSize.min,
             children: [
@@ -344,7 +196,7 @@ class _CheckPrinterScreenState extends State<CheckPrinterScreen> {
                         color: Colors.white,
                         border: Border.all(width: 2),
                       ),
-                      child: Center(
+                      child:const Center(
                           child: Column(children: [
                         Row(
                             mainAxisAlignment: MainAxisAlignment.center,
@@ -503,59 +355,9 @@ class _CheckPrinterScreenState extends State<CheckPrinterScreen> {
                                         fontSize: 10,
                                       ))),
                             ]),
-                        // Row(
-                        //     mainAxisSize: MainAxisSize.min,
-                        //     mainAxisAlignment: MainAxisAlignment.center,
-                        //     children: const [
-                        //       Center(
-                        //           child: Text('  29  ',
-                        //               style: TextStyle(
-                        //                 fontSize: 10,
-                        //               ))),
-                        //       Center(
-                        //           child: Text('الإجمالي : ',
-                        //               style: TextStyle(
-                        //                 fontSize: 10,
-                        //               ))),
-                        //     ]),
-                        // Row(
-                        //     mainAxisSize: MainAxisSize.min,
-                        //     mainAxisAlignment: MainAxisAlignment.center,
-                        //     children: const [
-                        //       Center(
-                        //           child: Text('  مدفوعة  ',
-                        //               style: TextStyle(
-                        //                 fontSize: 10,
-                        //               ))),
-                        //       Center(
-                        //           child: Text('حالة الفاتورة : ',
-                        //               style: TextStyle(
-                        //                 fontSize: 10,
-                        //               ))),
-                        //     ]),
-                        // Row(
-                        //     mainAxisSize: MainAxisSize.min,
-                        //     mainAxisAlignment: MainAxisAlignment.center,
-                        //     children: const [
-                        //       Center(
-                        //           child: Text('  نقدا  ',
-                        //               style: TextStyle(
-                        //                 fontSize: 10,
-                        //               ))),
-                        //       Center(
-                        //           child: Text('طريقة الدفع : ',
-                        //               style: TextStyle(
-                        //                 fontSize: 10,
-                        //               ))),
-                        //     ]),
+
                       ]))
-                      //             child: Html(
-                      //               data: """
-                      //       `
-                      //       <h3>هذا النص للتجربة 1</h3>
-                      //       `
-                      // """,
-                      //             ),
+
                       ),
                 ],
               ),
